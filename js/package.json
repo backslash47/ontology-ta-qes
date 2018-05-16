@@ -1,0 +1,26 @@
+{
+  "name": "ontology-ta-email2",
+  "version": "1.0.0",
+  "description": "European QES TA service",
+  "main": "./build/server.js",
+  "author": "Matus Zamborsky <zamborsky@gmail.com>",
+  "license": "LGPL",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon ./"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.11.1",
+    "@types/request-promise-native": "^1.0.14",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.4",
+    "ont-sdk-ts": "backslash47/ontology-ts-sdk#oep-verify-impl",
+    "request-promise-native": "^1.0.5",
+    "typescript": "^2.8.3"
+  }
+}
